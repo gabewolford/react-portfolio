@@ -1,6 +1,12 @@
+import leftArrow from '../../assets/left arrow.svg'
+import rightArrow from '../../assets/right arrow.svg'
+import anonanonMockup from '../../assets/anon anon mockup.png'
+import launchbreakMockup from '../../assets/launchbreak mockup.png'
+import gregslistMockup from '../../assets/gregslist mockup.png'
+
 export default function WorkPage() {
     return (
-        <div className="mt-16 pb-24 max-w-[65vw] mx-auto">
+        <div className="mt-16 pb-36 max-w-[65vw] mx-auto">
             <header className="text-center text-2xl md:text-4xl font-bold">
                     <h1 className="text-dark-grey">things i've built</h1>
             </header>
@@ -14,14 +20,14 @@ export default function WorkPage() {
                 </div>
                 <div className="flex items-center my-4">
                     <a href="https://launchbreak.herokuapp.com/" target="_blank">
-                        <img className="w-6 mr-2 hover:scale-105 transition ease-in-out duration-500" src="src/assets/left arrow.svg" />
+                        <img className="w-6 mr-2 hover:scale-105 transition ease-in-out duration-500" src={leftArrow} />
                     </a>
                     <a href="https://launchbreak.herokuapp.com/" target="_blank">
                         <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
                     </a>
                 </div>
                 <div>
-                    <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src="src/assets/launchbreak mockup.png"/>
+                    <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={launchbreakMockup}/>
                 </div>
             </section>
 
@@ -38,11 +44,11 @@ export default function WorkPage() {
                             <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
                         </a>
                         <a href="https://www.anomaliesanonymous.com/" target="_blank">
-                            <img className="w-6 ml-2" src="src/assets/right arrow.svg" />
+                            <img className="w-6 ml-2" src={rightArrow} />
                         </a>
                     </div>
                     <div className='flex justify-end'>
-                        <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src="src/assets/anon anon mockup.png"/>
+                        <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={anonanonMockup}/>
                     </div>
                 </div>
             </section>
@@ -56,18 +62,18 @@ export default function WorkPage() {
                 </div>
                 <div className="flex items-center my-4">
                     <a href="https://gregslist.herokuapp.com/" target="_blank">
-                        <img className="w-6 mr-2" src="src/assets/left arrow.svg" />
+                        <img className="w-6 mr-2" src={leftArrow} />
                     </a>
                     <a href="https://gregslist.herokuapp.com/" target="_blank">
                         <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
                     </a>
                 </div>
                 <div>
-                    <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src="src/assets/gregslist mockup.png"/>
+                    <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={gregslistMockup}/>
                 </div>
             </section>
 
-            <section className='mt-20 text-right'>
+            <section className='mt-24 text-right'>
                 <div className="justify-end">
                     <a href="https://github.com/gabewolford" target="_blank">
                         <h1 className="text-3xl md:text-4xl overline hover:text-yellow hover:scale-105 transition ease-in-out duration-500">more coming soon!</h1>

@@ -1,13 +1,18 @@
+import profilePhoto from '../../assets/vla.png'
+import downloadButton from '../../assets/download.png'
+import resume from '../../assets/resume.pdf'
+import linkedInLogo from '../../assets/linkedin.png'
+import emailLogo from '../../assets/email.png'
+import githubLogo from '../../assets/github.png'
+
 export default function MePage() {
     return (
         <div className="mt-16 pb-24 max-w-[70vw] mx-auto">
-            <header className="text-center text-2xl md:text-4xl font-bold mb-16">
-                    <h1 className="text-dark-grey">a lil bit about me</h1>
-            </header>
             
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <img class="rounded-full mx-auto" src="/src/assets/vla.png" />
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-32">
+                <img class="rounded-full mx-auto" src={profilePhoto} />
                 <div className="border-4 rounded-3xl border-t-green border-r-orange border-b-pink border-l-yellow p-4">
+                    <h1 className="text-dark-grey text-4xl mb-5">a lil bit about me</h1>
                     <p class="mb-4">i'm gabe, a full stack developer based in portland, oregon. prior to making the transition to tech, i spent nearly a decade in the music industry, where i worked in live production, touring, labels, streaming, startups, and experiential agencies. combining my sharp eye for detail and strong analytical skills, i have a knack for operations and thrive on crafting awesome internal tools. my ultimate goal is to ensure exceptional user experiences, whether in the digital or physical realm.</p>
                     <p>in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i'm not doing that, i enjoy cooking, baking, hiking, and exploring the PNW with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
                 </div>
@@ -37,20 +42,24 @@ export default function MePage() {
                 </div>
                 
                 <div className="mb-10 flex items-center">
-                    <a href="/src/assets/resume.pdf" target="_blank" className="mr-1.5">
-                        <img src="/src/assets/download.png" alt="download-button"/>
+                    <a href={resume} target="_blank" className="mr-1.5">
+                        <img src={downloadButton} alt="download-button"/>
                     </a>
-                    <a href="/src/assets/resume.pdf" target="_blank" 
-                    className="text-xl text-green hover:text-blue mr-6">download resume
+
+                    <a href={resume} target="_blank" 
+                    className="text-xl text-green hover:text-blue mr-5">download resume
                     </a>
-                    <a href="mailto:gabewolford@gmail.com" className="mr-2">
-                        <img src="/src/assets/email.png" alt="email"/>
-                        </a>
-                    <a href="https://www.linkedin.com/in/gabe-wolford/" className="mr-2">
-                        <img src="/src/assets/linkedin.png" alt="linked-in"/>
-                        </a>
-                    <a href="https://github.com/gabewolford">
-                        <img src="/src/assets/github.png" alt="github"/>
+
+                    <a href="mailto:gabewolford@gmail.com" target='_blank' className="mr-2">
+                        <img src={emailLogo} alt="email"/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/gabe-wolford/" target='_blank' className="mr-2">
+                        <img src={linkedInLogo} alt="linked-in"/>
+                    </a>
+
+                    <a href="https://github.com/gabewolford" target='_blank'>
+                        <img src={githubLogo} alt="github"/>
                     </a>
                 </div>
                 
