@@ -17,3 +17,7 @@
   background-color: rgb(24, 24, 24);
   color: rgb(255, 255, 255);
 }
+
+body {
+  height: 100vh;
+}
