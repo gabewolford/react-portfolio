@@ -6,12 +6,12 @@ import gregslistMockup from '../../assets/gregslist mockup.png'
 
 export default function WorkPage() {
     return (
-        <div className="mt-16 pb-36 max-w-[65vw] mx-auto">
+        <div className="mt-24 pb-36 max-w-[65vw] mx-auto">
             <header className="text-center text-2xl md:text-4xl font-bold">
                     <h1 className="text-dark-grey">things i've built</h1>
             </header>
             
-            <section className='mt-12'>
+            <section className='mt-16'>
                 <a href="https://github.com/gabewolford/launchbreak" target="_blank">
                     <h1 className="text-3xl md:text-4xl hover:text-yellow hover:scale-105 transition ease-in-out duration-500">full-stack react application</h1>
                 </a>
