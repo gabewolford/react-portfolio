@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet"
+
 export default function HomePage() {
     return (
         <>
+            <Helmet>
+                <title>gabe wolford | home</title>
+            </Helmet>
             <div className="grid h-screen place-items-center text-xl mx-auto md:text-4xl lg:mx-12">
                 <div className="leading-tight tracking-normal cursor-default">
                     <span>hey there, i'm </span>
