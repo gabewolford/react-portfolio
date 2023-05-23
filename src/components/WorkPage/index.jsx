@@ -4,12 +4,14 @@ import anonanonMockup from '../../assets/anon anon mockup.png'
 import launchbreakMockup from '../../assets/launchbreak mockup.png'
 import gregslistMockup from '../../assets/gregslist mockup.png'
 import { Helmet } from 'react-helmet'
+import { greenIcon } from '../../assets/green.png'
 
 export default function WorkPage() {
     return (
         <>
             <Helmet>
-                <title>gabe wolford - work</title>
+                <title>gabe wolford | work</title>
+                <link rel="icon" href={greenIcon} />
             </Helmet>
             <div className="mt-24 pb-36 max-w-[65vw] mx-auto">
                         <header className="text-center text-2xl md:text-4xl font-bold">

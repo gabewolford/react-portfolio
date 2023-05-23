@@ -5,12 +5,14 @@ import linkedInLogo from '../../assets/linkedin.png'
 import emailLogo from '../../assets/email.png'
 import githubLogo from '../../assets/github.png'
 import { Helmet } from 'react-helmet'
+import { orangeIcon } from '../../assets/orange.png'
 
 export default function MePage() {
     return (
         <>
             <Helmet>
                 <title>gabe wolford | me</title>
+                <link rel="icon" href={orangeIcon} />
             </Helmet>
             <div className="mt-16 pb-24 max-w-[70vw] mx-auto">
                 
