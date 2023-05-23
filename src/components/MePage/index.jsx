@@ -5,7 +5,7 @@ import linkedInLogo from '../../assets/linkedin.png'
 import emailLogo from '../../assets/email.png'
 import githubLogo from '../../assets/github.png'
 import { Helmet } from 'react-helmet'
-import { orangeIcon } from '../../assets/orange.png'
+import orangeIcon from '../../assets/orange.png'
 
 export default function MePage() {
     return (

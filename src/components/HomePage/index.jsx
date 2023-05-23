@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet"
-import { pinkIcon } from '../../assets/pink.png'
+import pinkIcon from '../../assets/pink.png'
 
 export default function HomePage() {
     return (
