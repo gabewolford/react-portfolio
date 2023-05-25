@@ -83,7 +83,7 @@ export default function WorkPage() {
                         <section className='mt-24 text-right'>
                             <div className="justify-end">
                                 <a href="https://github.com/gabewolford" target="_blank">
-                                    <h1 className="text-3xl md:text-4xl overline hover:text-yellow hover:scale-105 transition ease-in-out duration-500">more coming soon!</h1>
+                                    <h1 className="text-2xl md:text-3xl md:text-4xl overline hover:text-yellow hover:scale-105 transition ease-in-out duration-500">more coming soon!</h1>
                                 </a>
                             </div>
                         </section>
