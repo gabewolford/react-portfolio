@@ -54,7 +54,7 @@ export default function MePage() {
                         </a>
 
                         <a href={resume} target="_blank" 
-                        className="text-xl text-green hover:text-blue mr-5">download resume
+                        className="text-sm md:text-xl text-green hover:text-blue mr-5">download resume
                         </a>
 
                         <a href="mailto:gabewolford@gmail.com" target='_blank' className="mr-2">
