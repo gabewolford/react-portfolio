@@ -14,7 +14,7 @@ export default function MePage() {
                 <title>gabe wolford | me</title>
                 <link rel="icon" href={orangeIcon} />
             </Helmet>
-            <div className="mt-16 pb-24 max-w-[70vw] mx-auto">
+            <div className="mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto">
                 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-32">
                     <img class="rounded-full mx-auto" src={profilePhoto} />
@@ -54,7 +54,7 @@ export default function MePage() {
                         </a>
 
                         <a href={resume} target="_blank" 
-                        className="text-sm md:text-xl text-green hover:text-blue mr-5">download resume
+                        className="text-lg md:text-xl text-green hover:text-blue mr-5">download resume
                         </a>
 
                         <a href="mailto:gabewolford@gmail.com" target='_blank' className="mr-2">

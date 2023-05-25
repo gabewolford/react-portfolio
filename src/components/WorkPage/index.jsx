@@ -13,7 +13,7 @@ export default function WorkPage() {
                 <title>gabe wolford | work</title>
                 <link rel="icon" href={greenIcon} />
             </Helmet>
-            <div className="mt-24 pb-36 max-w-[65vw] mx-auto">
+            <div className="mt-24 pb-36 max-w-[80vw] md:max-w-[70vw] mx-auto">
                         <header className="text-center text-2xl md:text-4xl font-bold">
                                 <h1 className="text-dark-grey">things i've built</h1>
                         </header>
