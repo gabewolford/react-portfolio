@@ -19,8 +19,8 @@ export default function MePage() {
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-32">
                     <img class="rounded-full mx-auto" src={profilePhoto} />
                     <div className="border-4 rounded-3xl border-t-green border-r-orange border-b-pink border-l-yellow p-4">
-                        <h1 className="text-dark-grey text-4xl mb-5">a lil bit about me</h1>
-                        <p class="mb-4">i'm gabe, a full stack developer based in portland, oregon. prior to making the transition to tech, i spent nearly a decade in the music industry, where i worked in live production, touring, labels, streaming, startups, and experiential agencies. combining my sharp eye for detail and strong analytical skills, i have a knack for operations and thrive on crafting awesome internal tools. my ultimate goal is to ensure exceptional user experiences, whether in the digital or physical realm.</p>
+                        <h1 className="text-dark-grey text-4xl mb-5">a bit about me</h1>
+                        <p class="mb-4">i'm gabe, a full stack developer based in portland, OR specializing in React applications and front-end technologies, with expertise in Node.js, Tailwind CSS, and responsive design. proven ability to deliver high-quality and visually appealing web applications. Skilled in building robust and scalable solutions, collaborating with cross-functional design and product teams every step of the way. committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>
                         <p>in my spare time you can find me outside, riding my bike on a variety of different surfaces. if i'm not doing that, i enjoy cooking, baking, hiking, and exploring the PNW with my dog and my partner. as a lifelong learner, space fanatic, and amateur astronomer, i love reading about the universe & the current state of space exploration.</p>
                     </div>
                 </div>
@@ -45,7 +45,7 @@ export default function MePage() {
 
                     <div className="mb-20">
                         <h5 className="text-dark-grey mb-3 hover:text-yellow">tools</h5>
-                        <p>git, github, heroku, docker, vite, terminal, mongoose, postman, figma, visual studio code</p>
+                        <p>git, github, heroku, docker, vite, terminal, mongoose, postman, aws, google, figma, visual studio code</p>
                     </div>
                     
                     <div className="mb-10 flex items-center">
