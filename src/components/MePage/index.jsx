@@ -13,11 +13,12 @@ export default function MePage() {
             <Helmet>
                 <title>gabe wolford | me</title>
                 <link rel="icon" href={orangeIcon} />
+                <meta name="description" content="a lil bit about me" />
             </Helmet>
             <div className="mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto">
                 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-32">
-                    <img class="rounded-full mx-auto" src={profilePhoto} />
+                    <img class="rounded-full mx-auto" src={profilePhoto} alt="profile photo" />
                     <div className="border-4 rounded-3xl border-t-green border-r-orange border-b-pink border-l-yellow p-4">
                         <h1 className="text-dark-grey text-4xl mb-5">a bit about me</h1>
                         <p class="mb-4">i'm gabe, a full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, tailwind, and responsive design. proven ability to deliver high-quality and visually appealing web applications. i am skilled in building robust and scalable solutions, collaborating with cross-functional design and product teams every step of the way. committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>

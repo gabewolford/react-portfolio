@@ -12,6 +12,7 @@ export default function WorkPage() {
             <Helmet>
                 <title>gabe wolford | work</title>
                 <link rel="icon" href={greenIcon} />
+                <meta name="description" content="some of the work i've done" />
             </Helmet>
             <div className="mt-24 pb-36 max-w-[80vw] md:max-w-[70vw] mx-auto">
                         <header className="text-center text-2xl md:text-4xl font-bold">
@@ -27,14 +28,14 @@ export default function WorkPage() {
                             </div>
                             <div className="flex items-center my-4">
                                 <a href="https://launchbreak.herokuapp.com/" target="_blank">
-                                    <img className="w-6 mr-2 hover:scale-105 transition ease-in-out duration-500" src={leftArrow} />
+                                    <img className="w-6 mr-2 hover:scale-105 transition ease-in-out duration-500" src={leftArrow} alt='left arrow'/>
                                 </a>
                                 <a href="https://launchbreak.herokuapp.com/" target="_blank">
                                     <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
                                 </a>
                             </div>
                             <div>
-                                <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={launchbreakMockup}/>
+                                <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={launchbreakMockup} alt='project screenshot'/>
                             </div>
                         </section>
 
@@ -51,11 +52,11 @@ export default function WorkPage() {
                                         <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
                                     </a>
                                     <a href="https://www.anomaliesanonymous.com/" target="_blank">
-                                        <img className="w-6 ml-2" src={rightArrow} />
+                                        <img className="w-6 ml-2" src={rightArrow} alt='right arrow'/>
                                     </a>
                                 </div>
                                 <div className='flex justify-end'>
-                                    <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={anonanonMockup}/>
+                                    <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={anonanonMockup} alt='project screenshot'/>
                                 </div>
                             </div>
                         </section>
@@ -69,14 +70,14 @@ export default function WorkPage() {
                             </div>
                             <div className="flex items-center my-4">
                                 <a href="https://gregslist.herokuapp.com/" target="_blank">
-                                    <img className="w-6 mr-2" src={leftArrow} />
+                                    <img className="w-6 mr-2" src={leftArrow} alt='left arrow'/>
                                 </a>
                                 <a href="https://gregslist.herokuapp.com/" target="_blank">
                                     <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
                                 </a>
                             </div>
                             <div>
-                                <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={gregslistMockup}/>
+                                <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={gregslistMockup} alt='project screenshot'/>
                             </div>
                         </section>
 
