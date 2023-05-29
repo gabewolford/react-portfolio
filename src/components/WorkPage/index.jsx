@@ -13,7 +13,7 @@ export default function WorkPage() {
                 <title>gabe wolford | work</title>
                 <link rel="icon" href={greenIcon} />
             </Helmet>
-            <div className="mt-24 pb-36 max-w-[65vw] mx-auto">
+            <div className="mt-24 pb-36 max-w-[80vw] md:max-w-[70vw] mx-auto">
                         <header className="text-center text-2xl md:text-4xl font-bold">
                                 <h1 className="text-dark-grey">things i've built</h1>
                         </header>
@@ -83,7 +83,7 @@ export default function WorkPage() {
                         <section className='mt-24 text-right'>
                             <div className="justify-end">
                                 <a href="https://github.com/gabewolford" target="_blank">
-                                    <h1 className="text-3xl md:text-4xl overline hover:text-yellow hover:scale-105 transition ease-in-out duration-500">more coming soon!</h1>
+                                    <h1 className="text-2xl md:text-3xl md:text-4xl overline hover:text-yellow hover:scale-105 transition ease-in-out duration-500">more coming soon!</h1>
                                 </a>
                             </div>
                         </section>
