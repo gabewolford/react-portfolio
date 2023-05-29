@@ -36,7 +36,7 @@ export default function MePage() {
 
                     <div className="mb-10">
                         <h5 className="text-dark-grey mb-3 hover:text-orange">frameworks</h5>
-                        <p>react, django, express, next, node, tailwind, bootstrap, materialize</p>
+                        <p>react, next, django, express, node, tailwind, bootstrap</p>
                     </div>
 
                     <div className="mb-10">
@@ -46,7 +46,7 @@ export default function MePage() {
 
                     <div className="mb-20">
                         <h5 className="text-dark-grey mb-3 hover:text-yellow">tools</h5>
-                        <p>git, github, heroku, docker, vite, terminal, mongoose, postman, aws, google, figma, visual studio code</p>
+                        <p>vite, vercel, git, github, mongoose, postman, aws, google, figma, vs code</p>
                     </div>
                     
                     <div className="mb-10 flex items-center">
