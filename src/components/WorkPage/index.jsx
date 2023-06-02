@@ -90,6 +90,5 @@ export default function WorkPage() {
                         </section>
                     </div>
         </>
-        
     )
 }
