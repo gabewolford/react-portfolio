@@ -1,10 +1,12 @@
 import leftArrow from '../../assets/left arrow.svg'
 import rightArrow from '../../assets/right arrow.svg'
-import anonanonMockup from '../../assets/anon anon mockup.png'
-import launchbreakMockup from '../../assets/launchbreak mockup.png'
-import gregslistMockup from '../../assets/gregslist mockup.png'
+import launchbreakScreenshot from '../../assets/launchbreak.png'
+import anonanonScreenshot from '../../assets/anonanon.png'
+import islamoradaScreenshot from '../../assets/islamorada.png'
+import gregslistScreenshot from '../../assets/gregslist.png'
 import { Helmet } from 'react-helmet'
 import greenIcon from '../../assets/green.png'
+
 
 export default function WorkPage() {
     return (
@@ -14,81 +16,109 @@ export default function WorkPage() {
                 <link rel="icon" href={greenIcon} />
                 <meta name="description" content="some of the work i've done" />
             </Helmet>
-            <div className="mt-24 pb-36 max-w-[80vw] md:max-w-[70vw] mx-auto">
-                        <header className="text-center text-2xl md:text-4xl font-bold">
-                                <h1 className="text-dark-grey">things i've built</h1>
-                        </header>
-                        
-                        <section className='mt-16'>
+            <div className="mt-24 pb-36 max-w-[80vw] md:max-w-[80vw] mx-auto">
+                <header className="text-center text-3xl md:text-4xl font-bold mb-16">
+                        <h1>things i've built</h1>
+                </header>
+
+                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                    <div className="flex flex-col items-end md:ml-20">
+                        <a href="https://github.com/gabewolford/islamorada-fishing" target="_blank">
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">react application</h4>
+                        </a>
+                    
+                        <p className="text-sm mb-2 text-right">currently developing a new website for islamorada fishing guides & charters using react, node and tailwind, </p>
+                        <div className="flex items-center">
+                            <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">in progress</span>
+                            <img className="w-6 ml-2" src={rightArrow} alt='right arrow'/>
+                        </div>
+                    </div>
+                    
+                    <div className='order-last max-h-96 overflow-y-scroll overflow-none'>
+                        <img src={islamoradaScreenshot} alt="islamorada fishing screenshot" />
+                    </div>
+                </section>
+
+
+                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                    <div className='order-last md:order-first max-h-96 overflow-y-scroll overflow-none'>
+                        <img src={launchbreakScreenshot} alt="launchbreak screenshot" />
+                    </div>
+                    
+                    <div>
+                        <div className="flex flex-col items-start md:mr-20">
                             <a href="https://github.com/gabewolford/launchbreak" target="_blank">
-                                <h1 className="text-3xl md:text-4xl hover:text-yellow hover:scale-105 transition ease-in-out duration-500">full-stack react application</h1>
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack react app</h4>
                             </a>
-                            <div className="mt-2">
-                                <p className="text-sm text-dark-grey w-[75%] lg:w-[50%]">designed and developed a responsive MERN-stack app hosted on Heroku with full CRUD capabilities, using React, Express, MongoDB, Node, JavaScript, TailwindCSS, Figma, and VS Code</p>
-                            </div>
-                            <div className="flex items-center my-4">
+                        
+                            <p className="text-sm mb-2">designed and developed a responsive MERN-stack app hosted on Heroku with full CRUD capabilities, using React, Express, MongoDB, Node, JavaScript, TailwindCSS, Figma, and VS Code</p>
+                            <div className="flex items-center">
                                 <a href="https://launchbreak.herokuapp.com/" target="_blank">
-                                    <img className="w-6 mr-2 hover:scale-105 transition ease-in-out duration-500" src={leftArrow} alt='left arrow'/>
+                                    <img className="w-6 mr-2" src={leftArrow} alt='left arrow'/>
                                 </a>
                                 <a href="https://launchbreak.herokuapp.com/" target="_blank">
-                                    <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
+                                    <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
                                 </a>
                             </div>
-                            <div>
-                                <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={launchbreakMockup} alt='project screenshot'/>
-                            </div>
-                        </section>
+                        </div>
+                    </div>
+                </section>
+                
+                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                    <div className="flex flex-col items-end md:ml-20">
+                        <a href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack django app</h4>
+                        </a>
+                    
+                        <p className="text-sm mb-2 text-right">designed and developed a responsive full-stack Django app hosted on Heroku with full CRUD capabilities, using Python, PostgreSQL, HTML JavaScript, CSS, Bootstrap, jQuery, geocoder, crispy forms, Git/GitHub, Figma, and VS Code</p>
+                        <div className="flex items-center">
+                            <a href="https://www.anomaliesanonymous.com/" target="_blank">
+                                <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
+                            </a>
+                            <a href="https://www.anomaliesanonymous.com/" target="_blank">
+                                <img className="w-6 ml-2" src={rightArrow} alt='right arrow'/>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    
+                    <div className='order-last'>
+                        <img src={anonanonScreenshot} alt="anomalies anonymous screenshot" />
+                    </div>
+                </section>
 
-                        <section className='mt-20 text-right'>
-                            <div className="justify-end">
-                                <a href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
-                                    <h1 className="text-3xl md:text-4xl hover:text-yellow hover:scale-105 transition ease-in-out duration-500">full-stack django application</h1>
-                                </a>
-                                <div className="mt-2 flex items-center justify-end">
-                                    <p className="text-sm text-dark-grey w-[75%] lg:w-[50%]">designed and developed a responsive full-stack Django app hosted on Heroku with full CRUD capabilities, using Python, PostgreSQL, HTML JavaScript, CSS, Bootstrap, jQuery, geocoder, crispy forms, Git/GitHub, Figma, and VS Code</p>
-                                </div>
-                                <div className="flex items-center justify-end my-4">
-                                    <a href="https://www.anomaliesanonymous.com/" target="_blank">
-                                        <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
-                                    </a>
-                                    <a href="https://www.anomaliesanonymous.com/" target="_blank">
-                                        <img className="w-6 ml-2" src={rightArrow} alt='right arrow'/>
-                                    </a>
-                                </div>
-                                <div className='flex justify-end'>
-                                    <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={anonanonMockup} alt='project screenshot'/>
-                                </div>
-                            </div>
-                        </section>
-
-                        <section className='mt-20'>
+                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                    <div className='order-last md:order-first max-h-96 overflow-y-scroll overflow-none'>
+                        <img src={gregslistScreenshot} alt="gregslist screenshot" />
+                    </div>
+                    
+                    <div>
+                        <div className="flex flex-col items-start md:mr-20">
                             <a href="https://github.com/gabewolford/gregslist" target="_blank">
-                                <h1 className="text-3xl md:text-4xl hover:text-yellow hover:scale-105 transition ease-in-out duration-500">MEN-stack CRUD application</h1>
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack CRUD app</h4>
                             </a>
-                            <div className="mt-2">
-                                <p className="text-sm text-dark-grey w-[75%] lg:w-[50%]">designed and developed a responsive full-stack web app hosted on Heroku with full CRUD capabilities, using Node.js, EJS, MongoDB, Mongoose, Postman, CSS, Bootstrap, Git/GitHub, Figma, and VS Code</p>
-                            </div>
-                            <div className="flex items-center my-4">
+                        
+                            <p className="text-sm mb-2">designed and developed a responsive full-stack web app hosted on Heroku with full CRUD capabilities, using Node.js, EJS, MongoDB, Mongoose, Postman, CSS, Bootstrap, Git/GitHub, Figma, and VS Code</p>
+                            <div className="flex items-center">
                                 <a href="https://gregslist.herokuapp.com/" target="_blank">
                                     <img className="w-6 mr-2" src={leftArrow} alt='left arrow'/>
                                 </a>
                                 <a href="https://gregslist.herokuapp.com/" target="_blank">
-                                    <span className="text-blue text-xl hover:text-pink hover:underline hover:decoration-wavy hover:underline-offset-4 hover:decoration-2">check it out</span>
+                                    <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
                                 </a>
                             </div>
-                            <div>
-                                <img className="w-[100%] md:w-[75%] lg:w-[50%] hover:scale-105 transition ease-in-out duration-500" src={gregslistMockup} alt='project screenshot'/>
-                            </div>
-                        </section>
-
-                        <section className='mt-24 text-right'>
-                            <div className="justify-end">
-                                <a href="https://github.com/gabewolford" target="_blank">
-                                    <h1 className="text-2xl md:text-3xl md:text-4xl overline hover:text-yellow hover:scale-105 transition ease-in-out duration-500">more coming soon!</h1>
-                                </a>
-                            </div>
-                        </section>
+                        </div>
                     </div>
+                </section>
+   
+                <section className='mt-24 text-center'>
+                    <div className="justify-end">
+                        <a href="https://github.com/gabewolford" target="_blank">
+                            <h1 className="text-2xl md:text-3xl overline hover:text-yellow transition ease-in-out duration-300">more coming soon!</h1>
+                        </a>
+                    </div>
+                </section>
+            </div>
         </>
     )
 }
