@@ -21,7 +21,7 @@ export default function WorkPage() {
                         <h1>things i've built</h1>
                 </header>
 
-                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/gabewolford/islamorada-fishing" target="_blank">
                             <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">react application</h4>
@@ -40,18 +40,18 @@ export default function WorkPage() {
                 </section>
 
 
-                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className='order-last md:order-first max-h-96 overflow-y-scroll overflow-none'>
                         <img src={launchbreakScreenshot} alt="launchbreak screenshot" />
                     </div>
                     
                     <div>
-                        <div className="flex flex-col items-start md:mr-20">
+                        <div className="flex flex-col items-start md:mr-20 md:mb-32">
                             <a href="https://github.com/gabewolford/launchbreak" target="_blank">
                                 <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack react app</h4>
                             </a>
                         
-                            <p className="text-sm mb-2">designed and developed a responsive MERN-stack app hosted on Heroku with full CRUD capabilities, using React, Express, MongoDB, Node, JavaScript, TailwindCSS, Figma, and VS Code</p>
+                            <p className="text-sm mb-2">designed and developed a responsive MERN-stack app hosted on heroku with full CRUD capabilities, using react, express, mongoDB, node, javascript, tailwind, figma, and vs code</p>
                             <div className="flex items-center">
                                 <a href="https://launchbreak.herokuapp.com/" target="_blank">
                                     <img className="w-6 mr-2" src={leftArrow} alt='left arrow'/>
@@ -64,13 +64,13 @@ export default function WorkPage() {
                     </div>
                 </section>
                 
-                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
                             <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack django app</h4>
                         </a>
                     
-                        <p className="text-sm mb-2 text-right">designed and developed a responsive full-stack Django app hosted on Heroku with full CRUD capabilities, using Python, PostgreSQL, HTML JavaScript, CSS, Bootstrap, jQuery, geocoder, crispy forms, Git/GitHub, Figma, and VS Code</p>
+                        <p className="text-sm mb-2 text-right">designed and developed a responsive full-stack django app hosted on heroku with full CRUD capabilities, using python, postgreSQL, bootstrap, jQuery, geocoder, crispy forms, figma, and vs code</p>
                         <div className="flex items-center">
                             <a href="https://www.anomaliesanonymous.com/" target="_blank">
                                 <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
