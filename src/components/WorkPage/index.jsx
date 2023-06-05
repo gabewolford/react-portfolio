@@ -16,7 +16,7 @@ export default function WorkPage() {
                 <link rel="icon" href={greenIcon} />
                 <meta name="description" content="some of the work i've done" />
             </Helmet>
-            <div className="mt-24 pb-36 max-w-[80vw] md:max-w-[80vw] mx-auto">
+            <div className="mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
                 <header className="text-center text-3xl md:text-4xl font-bold mb-16">
                         <h1>things i've built</h1>
                 </header>
@@ -24,7 +24,7 @@ export default function WorkPage() {
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/gabewolford/islamorada-fishing" target="_blank">
-                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">react application</h4>
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 text-right mb-4 transition ease-in-out duration-300">react app</h4>
                         </a>
                     
                         <p className="text-sm mb-2 text-right">currently developing a new website for islamorada fishing guides & charters using react, node and tailwind, </p>
@@ -67,7 +67,7 @@ export default function WorkPage() {
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
-                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack django app</h4>
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300 text-right">full stack django app</h4>
                         </a>
                     
                         <p className="text-sm mb-2 text-right">designed and developed a responsive full-stack django app hosted on heroku with full CRUD capabilities, using python, postgreSQL, bootstrap, jQuery, geocoder, crispy forms, figma, and vs code</p>
