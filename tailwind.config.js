@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -22,6 +23,8 @@ export default {
       sans: ['Vercetti-Regular', 'Inter', 'sans-serif']
     }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
 

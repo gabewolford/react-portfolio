@@ -34,14 +34,14 @@ export default function WorkPage() {
                         </div>
                     </div>
                     
-                    <div className='order-last max-h-96 overflow-y-scroll overflow-none'>
+                    <div className='order-last max-h-96 overflow-auto scrollbar-hide'>
                         <img src={islamoradaScreenshot} alt="islamorada fishing screenshot" />
                     </div>
                 </section>
 
 
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
-                    <div className='order-last md:order-first max-h-96 overflow-y-scroll overflow-none'>
+                    <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
                         <img src={launchbreakScreenshot} alt="launchbreak screenshot" />
                     </div>
                     
@@ -82,13 +82,13 @@ export default function WorkPage() {
                         </div>
                     </div>
                     
-                    <div className='order-last'>
+                    <div className='order-last overflow-auto scrollbar-hide'>
                         <img src={anonanonScreenshot} alt="anomalies anonymous screenshot" />
                     </div>
                 </section>
 
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
-                    <div className='order-last md:order-first max-h-96 overflow-y-scroll overflow-none'>
+                    <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
                         <img src={gregslistScreenshot} alt="gregslist screenshot" />
                     </div>
                     
