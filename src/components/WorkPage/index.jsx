@@ -27,7 +27,7 @@ export default function WorkPage() {
                             <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 text-right mb-4 transition ease-in-out duration-300">react app</h4>
                         </a>
                     
-                        <p className="text-sm mb-2 text-right">currently developing a new website for islamorada fishing guides & charters using react, node and tailwind, </p>
+                        <p className="text-sm mb-2 text-right">currently developing a new website for islamorada fishing guides & charters using react, node, and tailwind </p>
                         <div className="flex items-center">
                             <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">in progress</span>
                             <img className="w-6 ml-2" src={rightArrow} alt='right arrow'/>
