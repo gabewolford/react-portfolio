@@ -98,7 +98,7 @@ export default function WorkPage() {
                                 <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack CRUD app</h4>
                             </a>
                         
-                            <p className="text-sm mb-2">designed and developed a responsive full-stack web app hosted on Heroku with full CRUD capabilities, using Node.js, EJS, MongoDB, Mongoose, Postman, CSS, Bootstrap, Git/GitHub, Figma, and VS Code</p>
+                            <p className="text-sm mb-2">designed and developed a responsive full-stack web app hosted on heroku with full CRUD capabilities, using node, djs, mongoDB, mongoose, postman, css, bootstrap, git/github, figma, and vs code</p>
                             <div className="flex items-center">
                                 <a href="https://gregslist.herokuapp.com/" target="_blank">
                                     <img className="w-6 mr-2" src={leftArrow} alt='left arrow'/>
