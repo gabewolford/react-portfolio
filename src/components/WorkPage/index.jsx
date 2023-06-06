@@ -24,8 +24,9 @@ export default function WorkPage() {
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/gabewolford/islamorada-fishing" target="_blank">
-                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 text-right mb-4 transition ease-in-out duration-300">react app</h4>
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 text-right mb-1 transition ease-in-out duration-300">react app</h4>
                         </a>
+                        <p className="text-xs mb-2 text-right">april 2023</p>
                     
                         <p className="text-sm mb-2 text-right">currently developing a new website for islamorada fishing guides & charters using react, node, and tailwind </p>
                         <div className="flex items-center">
@@ -48,8 +49,9 @@ export default function WorkPage() {
                     <div>
                         <div className="flex flex-col items-start md:mr-20 md:mb-32">
                             <a href="https://github.com/gabewolford/launchbreak" target="_blank">
-                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack react app</h4>
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">full stack react app</h4>
                             </a>
+                            <p className="text-xs mb-2">may 2023</p>
                         
                             <p className="text-sm mb-2">designed and developed a responsive MERN-stack app hosted on heroku with full CRUD capabilities, using react, express, mongoDB, node, javascript, tailwind, figma, and vs code</p>
                             <div className="flex items-center">
@@ -67,8 +69,9 @@ export default function WorkPage() {
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
-                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300 text-right">full stack django app</h4>
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300 text-right">full stack django app</h4>
                         </a>
+                        <p className="text-xs mb-2 text-right">march 2023</p>
                     
                         <p className="text-sm mb-2 text-right">designed and developed a responsive full-stack django app hosted on heroku with full CRUD capabilities, using python, postgreSQL, bootstrap, jQuery, geocoder, crispy forms, figma, and vs code</p>
                         <div className="flex items-center">
@@ -95,8 +98,9 @@ export default function WorkPage() {
                     <div>
                         <div className="flex flex-col items-start md:mr-20">
                             <a href="https://github.com/gabewolford/gregslist" target="_blank">
-                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-4 transition ease-in-out duration-300">full stack CRUD app</h4>
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">full stack CRUD app</h4>
                             </a>
+                            <p className="text-xs mb-2">feb 2023</p>
                         
                             <p className="text-sm mb-2">designed and developed a responsive full-stack web app hosted on heroku with full CRUD capabilities, using node, djs, mongoDB, mongoose, postman, css, bootstrap, git/github, figma, and vs code</p>
                             <div className="flex items-center">
