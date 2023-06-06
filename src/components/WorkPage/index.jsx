@@ -24,11 +24,12 @@ export default function WorkPage() {
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/gabewolford/islamorada-fishing" target="_blank">
-                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 text-right mb-1 transition ease-in-out duration-300">react app</h4>
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 text-right mb-1 transition ease-in-out duration-300">islamorada fishing guides & charters</h4>
                         </a>
-                        <p className="text-xs mb-2 text-right">april 2023</p>
+                        <p className="text-md text-right">react application</p>
+                        <p className="text-xs mb-2 text-right text-dark-grey">april 2023</p>
                     
-                        <p className="text-sm mb-2 text-right">currently developing a new website for islamorada fishing guides & charters using react, node, and tailwind </p>
+                        <p className="text-sm mb-2 text-right">information architecture overhaul, SEO, site migration, and frontend facelift using react, node, tailwind, vercel</p>
                         <div className="flex items-center">
                             <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">in progress</span>
                             <img className="w-6 ml-2" src={rightArrow} alt='right arrow'/>
@@ -49,11 +50,12 @@ export default function WorkPage() {
                     <div>
                         <div className="flex flex-col items-start md:mr-20 md:mb-32">
                             <a href="https://github.com/gabewolford/launchbreak" target="_blank">
-                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">full stack react app</h4>
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">launchbreak</h4>
                             </a>
-                            <p className="text-xs mb-2">may 2023</p>
+                            <p className="text-md">full stack react application</p>
+                            <p className="text-xs mb-2 text-dark-grey">may 2023</p>
                         
-                            <p className="text-sm mb-2">designed and developed a responsive MERN-stack app hosted on heroku with full CRUD capabilities, using react, express, mongoDB, node, javascript, tailwind, figma, and vs code</p>
+                            <p className="text-sm mb-2">react, express, mongoDB, node, heroku, javascript, tailwind, figma, vs code</p>
                             <div className="flex items-center">
                                 <a href="https://launchbreak.herokuapp.com/" target="_blank">
                                     <img className="w-6 mr-2" src={leftArrow} alt='left arrow'/>
@@ -69,11 +71,12 @@ export default function WorkPage() {
                 <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col items-end md:ml-20">
                         <a href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
-                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300 text-right">full stack django app</h4>
+                            <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300 text-right">anomalies anonymous</h4>
                         </a>
-                        <p className="text-xs mb-2 text-right">march 2023</p>
+                        <p className="text-md text-right">full stack django application</p>
+                        <p className="text-xs mb-2 text-right text-dark-grey">march 2023</p>
                     
-                        <p className="text-sm mb-2 text-right">designed and developed a responsive full-stack django app hosted on heroku with full CRUD capabilities, using python, postgreSQL, bootstrap, jQuery, geocoder, crispy forms, figma, and vs code</p>
+                        <p className="text-sm mb-2 text-right">django, python, heroku, postgreSQL, bootstrap, jQuery, geocoder, crispy forms, figma, vs code</p>
                         <div className="flex items-center">
                             <a href="https://www.anomaliesanonymous.com/" target="_blank">
                                 <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
@@ -98,11 +101,12 @@ export default function WorkPage() {
                     <div>
                         <div className="flex flex-col items-start md:mr-20">
                             <a href="https://github.com/gabewolford/gregslist" target="_blank">
-                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">full stack CRUD app</h4>
+                                <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">gregslist</h4>
                             </a>
-                            <p className="text-xs mb-2">feb 2023</p>
+                            <p className="text-md">full stack e-commerce application</p>
+                            <p className="text-xs mb-2 text-dark-grey">feb 2023</p>
                         
-                            <p className="text-sm mb-2">designed and developed a responsive full-stack web app hosted on heroku with full CRUD capabilities, using node, djs, mongoDB, mongoose, postman, css, bootstrap, git/github, figma, and vs code</p>
+                            <p className="text-sm mb-2">node, mongoDB, mongoose, jsx, heroku, postman, css, bootstrap, git/github, figma, vs code</p>
                             <div className="flex items-center">
                                 <a href="https://gregslist.herokuapp.com/" target="_blank">
                                     <img className="w-6 mr-2" src={leftArrow} alt='left arrow'/>
