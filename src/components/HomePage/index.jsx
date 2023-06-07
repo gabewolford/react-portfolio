@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet"
 import pinkIcon from '../../assets/pink.png'
+import 'animate.css'    
 
 export default function HomePage() {
     return (
@@ -9,7 +10,7 @@ export default function HomePage() {
                 <link rel="icon" href={pinkIcon} />
                 <meta name="description" content="Hey there, I'm Gabe. I'm a full stack developer based in Portland, OR. " />
             </Helmet>
-            <div className="grid flex h-screen place-items-center text-3xl mx-auto md:text-4xl ml-10 md:mx-12">
+            <div className="grid flex h-screen place-items-center text-3xl mx-auto md:text-4xl ml-10 md:mx-12 animate__animated animate__fadeIn">
                 <div className="leading-tight tracking-normal cursor-default">
                     <span>hey there, i'm </span>
                     <span className="text-dark-grey hover:text-blue transition ease-in-out duration-500"> gabe</span>
