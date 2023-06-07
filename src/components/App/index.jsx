@@ -4,19 +4,19 @@ import HomePage from "../HomePage"
 import WorkPage from "../WorkPage"
 import MePage from "../MePage"
 import ScrollToTop from "../ScrollToTop"
+import 'animate.css';
 
 function App() {
 
   return (
     <>
-      <ScrollToTop />
-      <Nav />
-      
-      <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/work" element={<WorkPage />} />
-          <Route path="/me" element={<MePage />} />
-      </Routes>
+        <ScrollToTop />
+        <Nav />
+          <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/work" element={<WorkPage />} />
+              <Route path="/me" element={<MePage />} />
+          </Routes>
     </>
   )
 }
