@@ -10,7 +10,7 @@ export default function HomePage() {
                 <link rel="icon" href={pinkIcon} />
                 <meta name="description" content="Hey there, I'm Gabe. I'm a full stack developer based in Portland, OR. " />
             </Helmet>
-            <div className="grid flex h-screen place-items-center text-3xl mx-auto md:text-4xl ml-10 md:mx-12 animate__animated animate__fadeIn">
+            <h1 className="grid flex h-screen place-items-center text-3xl mx-auto md:text-4xl ml-10 md:mx-12 animate__animated animate__fadeIn">
                 <div className="leading-tight tracking-normal cursor-default">
                     <span>hey there, i'm </span>
                     <span className="text-dark-grey hover:text-blue transition ease-in-out duration-500"> gabe</span>
@@ -35,7 +35,7 @@ export default function HomePage() {
                     <span className="text-orange">'</span>
                     <span className="text-pink hover:text-green transition ease-in-out duration-500">&#93;</span>
                 </div>
-            </div>
+            </h1>
         </>
     )
 }
