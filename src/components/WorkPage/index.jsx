@@ -6,9 +6,30 @@ import islamoradaScreenshot from '../../assets/islamorada.png'
 import gregslistScreenshot from '../../assets/gregslist.png'
 import { Helmet } from 'react-helmet'
 import greenIcon from '../../assets/green.png'
+import { useEffect } from 'react'
 
 
 export default function WorkPage() {
+    useEffect(() => {
+        const cards = document.querySelectorAll('.fade-in')
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                entry.target.classList.toggle('show', entry.isIntersecting)
+                if (entry.isIntersecting) {
+                    observer.unobserve(entry.target)
+                }
+            })
+        },
+        {
+            threshold: .5,
+        }
+    )
+
+    cards.forEach(card => {
+        observer.observe(card)
+    })
+    }, [])
+
     return (
         <>
             <Helmet>
@@ -16,12 +37,12 @@ export default function WorkPage() {
                 <link rel="icon" href={greenIcon} />
                 <meta name="description" content="some of the work i've done" />
             </Helmet>
-            <div className="mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
+            <div className="animate__animated animate__fadeIn mt-24 pb-36 max-w-[80vw] lg:max-w-[70vw] mx-auto">
                 <header className="text-center text-3xl md:text-4xl font-bold mb-16">
                         <h1>things i've built</h1>
                 </header>
 
-                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
+                <section className="fade-in show flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col md:ml-20">
                         <a href="https://github.com/gabewolford/islamorada-fishing" target="_blank">
                             <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">islamorada fishing guides & charters</h4>
@@ -42,7 +63,7 @@ export default function WorkPage() {
                 </section>
 
 
-                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
+                <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
                         <img src={launchbreakScreenshot} alt="launchbreak screenshot" />
                     </div>
@@ -68,7 +89,7 @@ export default function WorkPage() {
                     </div>
                 </section>
                 
-                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
+                <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16 md:mb-32">
                     <div className="flex flex-col md:ml-20">
                         <a href="https://github.com/spbovarnick/anomalies-anonymous" target="_blank">
                             <h4 className="text-2xl md:text-3xl hover:text-orange font-md leading-7 mb-1 transition ease-in-out duration-300">anomalies anonymous</h4>
@@ -93,7 +114,7 @@ export default function WorkPage() {
                     </div>
                 </section>
 
-                <section className="flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
+                <section className="fade-in flex flex-col md:flex-row items-center gap-6 md:gap-14 mb-16">
                     <div className='order-last md:order-first max-h-96 overflow-auto scrollbar-hide'>
                         <img src={gregslistScreenshot} alt="gregslist screenshot" />
                     </div>
@@ -119,7 +140,7 @@ export default function WorkPage() {
                     </div>
                 </section>
    
-                <section className='mt-24 text-center'>
+                <section className='fade-in mt-24 text-center'>
                     <div className="justify-end">
                         <a href="https://github.com/gabewolford" target="_blank">
                             <h1 className="text-2xl md:text-3xl overline hover:text-yellow transition ease-in-out duration-300">more coming soon!</h1>

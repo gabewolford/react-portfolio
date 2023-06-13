@@ -7,7 +7,6 @@ import ScrollToTop from "../ScrollToTop"
 import 'animate.css';
 
 function App() {
-
   return (
     <>
         <ScrollToTop />

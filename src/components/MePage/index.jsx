@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import profilePhoto from '../../assets/vla.png'
 import downloadButton from '../../assets/download.png'
 import resume from '../../assets/resume.pdf'
@@ -8,6 +9,26 @@ import { Helmet } from 'react-helmet'
 import orangeIcon from '../../assets/orange.png'
 
 export default function MePage() {
+    useEffect(() => {
+        const cards = document.querySelectorAll('.fade-in')
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                entry.target.classList.toggle('show', entry.isIntersecting)
+                if (entry.isIntersecting) {
+                    observer.unobserve(entry.target)
+                }
+            })
+        },
+        {
+            threshold: .5,
+        }
+    )
+
+    cards.forEach(card => {
+        observer.observe(card)
+    })
+    }, [])
+
     return (
         <>
             <Helmet>
@@ -15,10 +36,10 @@ export default function MePage() {
                 <link rel="icon" href={orangeIcon} />
                 <meta name="description" content="a lil bit about me" />
             </Helmet>
-            <div className="mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
+            <div className="animate__animated animate__fadeIn mt-16 pb-24 max-w-[80vw] md:max-w-[70vw] mx-auto text-sm">
                 
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
-                    <img class="rounded-full mx-auto" src={profilePhoto} alt="profile photo" />
+                <div className="fade-in show grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center mt-24 md:mt-32">
+                    <img className="rounded-full mx-auto" src={profilePhoto} alt="profile photo" />
                     <div className="">
                         <h1 className="text-3xl md:text-4xl mb-5">a lil bit about me</h1>
                         <p className="mb-4">i'm gabe, a junior full stack developer based in portland, oregon specializing in react applications and front-end technologies, with expertise in node.js, tailwind, and responsive design. i have a proven ability to deliver high-quality & visually appealing web applications and skilled in building robust & scalable solutions. i collaborate well with cross-functional design & product teams every step of the way. i am committed to staying up-to-date with the latest trends and delivering exceptional user experiences.</p>
@@ -26,9 +47,9 @@ export default function MePage() {
                     </div>
                 </div>
 
-                <h2 className="text-2xl md:text-3xl mb-8 mt-16 lg:mt-20">skills</h2>
+                <h2 className="fade-in text-2xl md:text-3xl mb-8 mt-16 lg:mt-20">skills</h2>
 
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-14">
+                <div className="fade-in grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-14">
                     <div className="mb-10">
                         <h5 className="text-dark-grey mb-3 hover:text-green">languages</h5>
                         <p>javascript, python, html, css, sql</p>
@@ -50,7 +71,7 @@ export default function MePage() {
                     </div>
                 </div>
                     
-                <div className="mb-4 flex items-center">
+                <div className="fade-in mb-4 flex items-center">
                     <a href={resume} target="_blank" className="mr-1.5">
                         <img src={downloadButton} alt="download-button"/>
                     </a>
