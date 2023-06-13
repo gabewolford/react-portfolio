@@ -20,7 +20,7 @@ export default function MePage() {
             })
         },
         {
-            threshold: .5,
+            threshold: .25,
         }
     )
 

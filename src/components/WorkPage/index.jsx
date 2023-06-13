@@ -21,7 +21,7 @@ export default function WorkPage() {
             })
         },
         {
-            threshold: .5,
+            threshold: .25,
         }
     )
 

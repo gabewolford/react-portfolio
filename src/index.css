@@ -24,7 +24,7 @@ body {
 
 .fade-in {
   opacity: 0;
-  transition: 1500ms;
+  transition: 700ms;
 }
 
 .fade-in.show {
