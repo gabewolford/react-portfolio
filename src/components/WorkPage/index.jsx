@@ -53,7 +53,7 @@ export default function WorkPage() {
                         <p className="text-sm mb-2">information architecture overhaul, SEO, site migration, and frontend facelift using react, node, tailwind, vercel</p>
                         <div className="flex items-center">
                             <a href="https://staging-islamorada-fishing.vercel.app/" target="_blank">
-                                <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">check it out</span>
+                                <span className="text-blue text-md hover:text-pink hover:underline hover:underline-offset-8 hover:decoration-2">in progress</span>
                             </a>
                             <a href="https://staging-islamorada-fishing.vercel.app/" target="_blank">
                                 <img className="w-6 ml-2" src={rightArrow} alt='right arrow'/>
