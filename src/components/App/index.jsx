@@ -1,4 +1,5 @@
 import { Routes, Route, Link } from "react-router-dom";
+import { Analytics } from '@vercel/analytics/react';
 import Nav from "../Nav"
 import HomePage from "../HomePage"
 import WorkPage from "../WorkPage"
@@ -9,6 +10,7 @@ import 'animate.css';
 function App() {
   return (
     <>
+        <Analytics />
         <ScrollToTop />
         <Nav />
           <Routes>
